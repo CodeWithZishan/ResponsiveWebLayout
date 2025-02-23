@@ -97,17 +97,6 @@ h1 {
   border-bottom: 1px solid #1e1e1e;
   padding-bottom: 5px;
 }
-@media (max-width: 500px) {
-  #main {
-    flex-direction: column;
-  }
-  #main #left-sec {
-    width: 100%;
-  }
-}
-#main #rgt-sec {
-  width: 100%;
-}
 
 @media (max-width: 768px) {
   #main {
