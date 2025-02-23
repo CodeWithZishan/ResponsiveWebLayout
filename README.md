@@ -37,8 +37,9 @@ The layout is designed to be fully responsive:
 ### Mobile View
 ![Mobile Screenshot](./images/mobileScreenshot.png)
 
-## License
-This project is open-source and available under the **MIT License**.
+## Live Demo
+
+You can view the live demo of the ResponsiveWebLayout project at [https://codewithzishan.github.io/ResponsiveWebLayout/](https://codewithzishan.github.io/ResponsiveWebLayout/).
 
 
 
