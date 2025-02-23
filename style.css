@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Satoshi, sans-serif;
 }
 
 body {
@@ -10,9 +11,9 @@ body {
   background-color: #1e1e1e;
   color: #fff;
 }
-main {
-  height: 100%;
-  width: 100%;
+#main {
+  height: 100vh;
+  width: 100vw;
   display: flex;
 }
 #left-sec {
@@ -20,6 +21,7 @@ main {
   height: 100%;
   background-color: #fff;
   color: #1e1e1e;
+  position: relative;
 }
 #rgt-sec {
   width: 60%;
@@ -50,4 +52,71 @@ main {
   background-image: url(./orange.avif);
   background-size: cover;
   background-position: center;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+.nav-right a {
+  margin-right: 20px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #1e1e1e;
+  font-size: 14px;
+}
+#left-sec .text-centre {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-size: 120px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.text {
+  font-size: 12px;
+  opacity: 0.6;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.read-more {
+  text-decoration: none;
+  color: #1e1e1e;
+  opacity: 0.6;
+  font-size: 13px;
+  font-weight: 600;
+  border-bottom: 1px solid #1e1e1e;
+  padding-bottom: 5px;
+}
+@media (max-width: 500px) {
+  #main {
+    flex-direction: column;
+  }
+  #main #left-sec {
+    width: 100%;
+  }
+}
+#main #rgt-sec {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  #main {
+    flex-direction: column;
+  }
+  #left-sec {
+    width: 100%;
+  }
+  #rgt-sec {
+    width: 100%;
+  }
 }
