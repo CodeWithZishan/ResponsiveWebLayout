@@ -35,21 +35,21 @@ body {
 #rgt-bottom {
   width: 100%;
   height: 50%;
-  background-image: url(./bus.avif);
+  background-image: url(./images/bus.avif);
   background-size: cover;
   background-position: center;
 }
 #rgt-top-left {
   width: 55%;
   height: 100%;
-  background-image: url(../cactus.avif);
+  background-image: url(./images/cactus.avif);
   background-size: cover;
   background-position: center;
 }
 #rgt-top-right {
   width: 55%;
   height: 100%;
-  background-image: url(./orange.avif);
+  background-image: url(./images/orange.avif);
   background-size: cover;
   background-position: center;
 }
